@@ -6,8 +6,15 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
+# Configuración de logging
 logging.basicConfig(filename='app.log', level=logging.INFO)
 
+# Función de logging para registrar el tráfico de entrada
+@app.before_request
+def log_request_info():
+    logging.info(f'Request: {request.method} {request.url} - Data: {request.data.decode("utf-8")}')
+
+# Base de datos en memoria
 cars = []
 
 @app.route('/cars', methods=['POST'])
@@ -24,6 +31,8 @@ def register_car():
 
 @app.route('/cars', methods=['GET'])
 def list_cars():
+    # Loggea el tráfico de salida
+    logging.info(f"Car list requested")
     return jsonify(cars)
 
 @app.route('/cars', methods=['PATCH'])
@@ -38,6 +47,7 @@ def withdraw_car():
         logging.info(f"Car withdrawn: {license_plate}")
         return jsonify({'message': 'Car withdrawn successfully'}), 200
     else:
+        logging.error(f"Car not found: {license_plate}")
         return jsonify({'error': 'Car not found'}), 404
 
 if __name__ == '__main__':
