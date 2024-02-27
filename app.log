@@ -1,0 +1,56 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 324-126-220
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:37] "OPTIONS /cars HTTP/1.1" 200 -
+INFO:root:Car registered: 45
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:37] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:39] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:53] "OPTIONS /cars HTTP/1.1" 200 -
+INFO:root:Car registered: bh3-852
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:54] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:30:55] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 324-126-220
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:33:17] "GET /cars HTTP/1.1" 200 -
+INFO:root:Car registered: bhz456
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:33:38] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:33:39] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 324-126-220
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:35:37] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:35:58] "OPTIONS /cars HTTP/1.1" 200 -
+INFO:root:Car registered: None
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:35:58] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:35:59] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:25] "GET /cars HTTP/1.1" 200 -
+INFO:root:Car registered: bhz789
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:41] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:42] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:55] "OPTIONS /cars HTTP/1.1" 200 -
+INFO:root:Car withdrawn: bhz789
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:55] "PATCH /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:37:56] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:02] "GET /cars HTTP/1.1" 200 -
+INFO:root:Car registered: 75
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:17] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:18] "GET /cars HTTP/1.1" 200 -
+INFO:root:Car registered: ty
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:31] "[35m[1mPOST /cars HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:32] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:38] "OPTIONS /cars HTTP/1.1" 200 -
+INFO:root:Car withdrawn: 75
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:38] "PATCH /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:39] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:46] "GET /cars HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 17:38:49] "GET /cars HTTP/1.1" 200 -
